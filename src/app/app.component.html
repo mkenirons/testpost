@@ -1,0 +1,15 @@
+<textarea rows="1" cols="50" placeholder="Your Title"></textarea>
+<br>
+<textarea rows="6" cols="50" placeholder="Your Post"></textarea>
+<br>
+<button color="primary">Post</button>
+
+
+<h1>Posts</h1>
+<ul>
+  <li *ngFor="let p of posts">
+     <!-- <p>{{p.id}}</p> -->
+     <p>{{p.title}}</p>
+     <p>{{p.content}}</p>
+</ul>
+
